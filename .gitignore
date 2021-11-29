@@ -1,2 +1,5 @@
 .vscode/
 .idea/
+.secret
+.no_commit
+.nocommit
