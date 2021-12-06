@@ -1,4 +1,4 @@
-{{- range $scheduledPolicy := .Values.sps }}
+{{- range $scheduledPolicy := .Values.scheduledPolicies }}
 ---
 apiVersion: v1
 kind: ConfigMap
