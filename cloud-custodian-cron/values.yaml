@@ -17,8 +17,7 @@ podSecurityContext: {}
 
 securityContext: {}
 
-scheduledPolicies: []
-# sps
+sps: []
 
 resources: {}
 
@@ -35,7 +34,6 @@ args:
 - "-v"
 - "-s /home/custodian/output"
 - "/home/custodian/policies.yaml"
-
 
 persistence:
   enabled: false
